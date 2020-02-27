@@ -23,7 +23,7 @@
       
         <meta name="lang:clipboard.copied" content="コピーしました">
       
-        <meta name="lang:search.language" content="jp, en">
+        <meta name="lang:search.language" content="en, ja">
       
         <meta name="lang:search.pipeline.stopwords" content="True">
       
@@ -74,6 +74,8 @@
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600,800">
     
       <link rel="stylesheet" href="../css/extra.css">
+    
+      <link rel="stylesheet" href="../css/stylesheet.css">
     
     
       
@@ -539,10 +541,14 @@ EXPERIENCE</p>
           <script src="../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
           
             
-              
-              
-            
           
+            
+              
+                <script src="../assets/javascripts/lunr/tinyseg.js"></script>
+              
+              
+                <script src="../assets/javascripts/lunr/lunr.ja.js"></script>
+              
             
           
           
@@ -553,6 +559,8 @@ EXPERIENCE</p>
       <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
         <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      
+        <script src="../javascripts/scroll_button_script.js"></script>
       
     
   </body>
