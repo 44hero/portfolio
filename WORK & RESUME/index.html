@@ -77,7 +77,40 @@
     
       <link rel="stylesheet" href="../css/stylesheet.css">
     
+      <link rel="stylesheet" href="https://example.com/material-icons.woff">
     
+      <link rel="stylesheet" href="../css/icon.css">
+    
+      <link rel="stylesheet" href="../css/scroll_button.css">
+    
+      <link rel="stylesheet" href="../css/lightbox.css">
+    
+    
+      
+        
+<script>
+  window.ga = window.ga || function() {
+    (ga.q = ga.q || []).push(arguments)
+  }
+  ga.l = +new Date
+  /* Setup integration and send page view */
+  ga("create", "None", "auto")
+  ga("set", "anonymizeIp", true)
+  ga("send", "pageview")
+  /* Register handler to log search on blur */
+  document.addEventListener("DOMContentLoaded", () => {
+    if (document.forms.search) {
+      var query = document.forms.search.query
+      query.addEventListener("blur", function() {
+        if (this.value) {
+          var path = document.location.pathname;
+          ga("send", "pageview", path + "?q=" + this.value)
+        }
+      })
+    }
+  })
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
       
     
     
@@ -179,7 +212,7 @@
   <li class="md-tabs__item">
     
       <a href=".." class="md-tabs__link">
-        top
+        Home
       </a>
     
   </li>
@@ -205,6 +238,19 @@
       
         <a href="./" class="md-tabs__link md-tabs__link--active">
           WORK & RESUME
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../ご連絡はｺﾁﾗから/" class="md-tabs__link">
+          ご連絡はｺﾁﾗから
         </a>
       
     </li>
@@ -240,8 +286,8 @@
 
 
   <li class="md-nav__item">
-    <a href=".." title="top" class="md-nav__link">
-      top
+    <a href=".." title="Home" class="md-nav__link">
+      Home
     </a>
   </li>
 
@@ -357,6 +403,42 @@
   
 </nav>
     
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      ご連絡はｺﾁﾗから
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        ご連絡はｺﾁﾗから
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ご連絡はｺﾁﾗから/" title="Index" class="md-nav__link">
+      Index
+    </a>
   </li>
 
         
@@ -499,6 +581,20 @@ EXPERIENCE</p>
             </div>
           </a>
         
+        
+          <a href="../ご連絡はｺﾁﾗから/" title="Index" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  次
+                </span>
+                Index
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
         
       </nav>
     </div>
