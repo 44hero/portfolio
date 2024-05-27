@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://44hero.github.io/portfolio/</loc>
-     <lastmod>2020-10-02</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://44hero.github.io/tech_memo/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://44hero.github.io/portfolio/ABOUT ME/</loc>
-     <lastmod>2020-10-02</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://44hero.github.io/tech_memo/ABOUT%20ME/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://44hero.github.io/portfolio/WORK & RESUME/</loc>
-     <lastmod>2020-10-02</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://44hero.github.io/tech_memo/WORK%20%26%20RESUME/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://44hero.github.io/portfolio/ご連絡はｺﾁﾗから/</loc>
-     <lastmod>2020-10-02</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://44hero.github.io/tech_memo/%E3%81%94%E9%80%A3%E7%B5%A1%E3%81%AF%EF%BD%BA%EF%BE%81%EF%BE%97%E3%81%8B%E3%82%89/</loc>
+         <lastmod>2024-05-27</lastmod>
+         <changefreq>daily</changefreq>
     </url>
 </urlset>
