@@ -1,0 +1,31 @@
+﻿.pagetop {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    border-radius:15px;
+}
+.pagetop a {
+    display: block;
+    background-color: #ccc;
+    text-align: center;
+    color: #222;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 5px 10px;
+        filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+.pagetop a:hover {
+    display: block;
+    background-color: #b2d1fb;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    padding:5px 10px;
+        filter:alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}

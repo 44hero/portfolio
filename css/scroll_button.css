@@ -1,0 +1,43 @@
+﻿body {
+    height: 3000px;
+}
+
+.text{
+    font-size: 50px;
+}
+
+.move-to-test {
+    font-size: 80%;
+}
+
+/* リンクの下線を消す */
+a {
+    text-decoration: none;
+}
+/* カーソルが当たったら下線を表示する */
+a:hover {
+    text-decoration: underline;
+}
+
+/* :link擬似クラスでリンクの文字色を変える */
+a:link { 
+    color : #000000; 
+}
+
+/* :visited擬似クラスでリンククリック後の文字色を変える */
+/*
+a:visited {
+    color : #000000;
+}
+*/
+
+/* .back-to-top {
+    /* スクロールされても位置を固定する */
+    position: fixed;
+    /* 画面右下に表示 */
+    bottom: 20px;  /*bottom: 220px*/
+    right: 20px;
+    font-size: 180%;  /*default is 80%*/
+} */
+/* このページのトップへ戻る ボタン挿入 css 箇所 */
+/* sample site is here. https://qiita.com/yukibe/items/db21b0ca6bc5cd2e84fe */
