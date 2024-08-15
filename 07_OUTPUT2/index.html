@@ -669,7 +669,7 @@
         
   
   <span class="md-ellipsis">
-    None
+    Index
   </span>
   
 
@@ -839,7 +839,7 @@
         
           <li class="md-nav__item">
   <a href="#python" class="md-nav__link">
-    python コーディング環境
+    ・python コーディング環境
   </a>
   
 </li>
@@ -858,7 +858,7 @@
         
           <li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
-    ●将来について
+    ●今後のと取り組みについて
   </a>
   
 </li>
@@ -1037,7 +1037,7 @@
         
           <li class="md-nav__item">
   <a href="#python" class="md-nav__link">
-    python コーディング環境
+    ・python コーディング環境
   </a>
   
 </li>
@@ -1056,7 +1056,7 @@
         
           <li class="md-nav__item">
   <a href="#_8" class="md-nav__link">
-    ●将来について
+    ●今後のと取り組みについて
   </a>
   
 </li>
@@ -1121,8 +1121,9 @@
 </code></pre></div></td></tr></table></div>
 <h3 id="_5">●開発の経緯・ストーリー<a class="headerlink" href="#_5" title="eg) Anchor link to this section for reference / jp) 参照用のこのセクションへのアンカー リンクです">&para;</a></h3>
 <p>アニメータさんにお渡しする際、mayaの実作業において、取り回しが軽快な 軽い rigデータ を提供することは、非常に重要です。<br />
+また、アニメーションのし易さを可能な限り考慮した仕組みも取り入れるべきです。<br />
 実作業で起こりうる問題発生を想定し、予め解消しながら、rig を作成いたしました。</p>
-<p><strong><em>こだわった</em></strong>ところは、</p>
+<p><strong>こだわった</strong>ところは、</p>
 <ol>
 <li>rig, skinning, を完全に役割で分離した、階層構造を意識</li>
 <li>ローカル空間でのskinning</li>
@@ -1137,7 +1138,7 @@
 <p>データ作成には 様々な 自作の python コーディング ツール を使用しております。<br />
 <a href="../06_OUTPUT"><strong>OUTPUT</strong></a> -制作物PR- rig特化ツールのご紹介 は、ほんの一部です。<br />
 もちろん、外部有志の方々のツールも積極的に活用させていただいています。</p>
-<h4 id="python">python コーディング環境<a class="headerlink" href="#python" title="eg) Anchor link to this section for reference / jp) 参照用のこのセクションへのアンカー リンクです">&para;</a></h4>
+<h4 id="python">・python コーディング環境<a class="headerlink" href="#python" title="eg) Anchor link to this section for reference / jp) 参照用のこのセクションへのアンカー リンクです">&para;</a></h4>
 <div class="highlight" style="background: #ffffff"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">1</span>
 <span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">2</span>
 <span style="color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px;">3</span>
@@ -1156,9 +1157,11 @@ mGear, Advanced Skeleton, eST3 等、商用無料・商用有料の plug-in も�
 オープンソースなものオープンソースでないもの、多数ございます。</p>
 <p>しかしながら、<br />
 たとえオープンソースだとは言え、基本的な仕組みを理解した上での、それらのツールの使用でないと、<br />
-いつまでもツールの仕様の呪縛からは解放されることは無く、仕様に支配される形となります。</p>
+いつまでもツールの仕様の呪縛からは解放されることは無く、仕様に支配される形となります。<br />
+リガーにとっては決して避けて通れないテクニカルな問題に遭遇したときに、混乱してしまいます。</p>
+<p>ですから、<u>ここでご紹介した仕組みは、これまでの知見の蓄積であり現状のわたしにとってのベストプラクティスなだけです。<br />
+他にも様々な仕組みが存在しますし、決してこのやり方だけに固執している訳ではございません。</u></p>
 <p>なぜ、そういう仕組みなのかという、疑問の方が重要だと考えます。</p>
-<p>リガーにとっては決して避けて通れないテクニカルな問題にぶち当たったときにも、混乱してしまいます。</p>
 <p>この度の取り組みとして、<strong>一番気を使ったところ</strong>は、</p>
 <ul>
 <li>例え<strong>新しい環境であっても、柔軟に対応できる基本のスキルセットを、この身に叩き込み、予め身に着けておく</strong>こと</li>
@@ -1168,10 +1171,10 @@ mGear, Advanced Skeleton, eST3 等、商用無料・商用有料の plug-in も�
 フルスクラッチで、<br />
 実作業で起こりうる問題発生を想定し、予め解消しながら、rig を作成いたしました。<br />
 非常に手間と時間のかかる作業です。</p>
-<h3 id="_8">●将来について<a class="headerlink" href="#_8" title="eg) Anchor link to this section for reference / jp) 参照用のこのセクションへのアンカー リンクです">&para;</a></h3>
+<h3 id="_8">●今後のと取り組みについて<a class="headerlink" href="#_8" title="eg) Anchor link to this section for reference / jp) 参照用のこのセクションへのアンカー リンクです">&para;</a></h3>
 <p>時間は要しますが、私は、疑問を解消するために時間を惜しみません。<br />
 そして、<br />
-<strong>実情に甘えることなく、更に高みを目指し、実体験を基盤とし、新しい技術や方法を取り入れることを、今後も怠りません。</strong></p>
+<strong>現状に満足することなく、更に高みを目指し、実体験を基盤とし、新しい技術や方法を取り入れることを、今後も怠りません。</strong></p>
 <details class="-補足-有名なツールについて">
 <summary>-補足-有名なツールについて</summary>
 <p>■mGearとAdvanced Skeleton：オープンソースとプラグイン</p>
@@ -1266,7 +1269,7 @@ mGear, Advanced Skeleton, eST3 等、商用無料・商用有料の plug-in も�
   <small>
     
       最終更新日:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2024年8月14日 17:26:17</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">2024年8月15日 14:07:40</span>
       
     
   </small>
@@ -1300,7 +1303,7 @@ mGear, Advanced Skeleton, eST3 等、商用無料・商用有料の plug-in も�
       <nav class="md-footer__inner md-grid" aria-label="フッター" >
         
           
-          <a href="../06_OUTPUT/" class="md-footer__link md-footer__link--prev" aria-label="前: None" rel="prev">
+          <a href="../06_OUTPUT/" class="md-footer__link md-footer__link--prev" aria-label="前: Index" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256l137.3-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
@@ -1310,7 +1313,7 @@ mGear, Advanced Skeleton, eST3 等、商用無料・商用有料の plug-in も�
                 前
               </span>
               <div class="md-ellipsis">
-                None
+                Index
               </div>
             </div>
           </a>
